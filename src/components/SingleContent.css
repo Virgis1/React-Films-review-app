@@ -1,0 +1,52 @@
+.singleContent {
+  display: flex;
+  width: 320px;
+  height: 225px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #262626;
+  color: white;
+}
+
+.singleContent-img img {
+  width: 150px;
+}
+
+.singleContent-info {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.singleContent-info h1 {
+  font-size: 18px;
+  font-weight: 600;
+
+  margin: 0 10px 40px 10px;
+}
+
+.singleContent-info p {
+  font-size: 14px;
+}
+
+.singleContent-info_vote {
+  background-color: rgba(206, 171, 0, 1);
+  padding: 0px 4px 0px 4px;
+  margin: 5px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #000;
+  width: 40px;
+  align-self: center;
+}
+
+.singleContent-info button {
+  position: absolute;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #333333;
+  bottom: 0px;
+  width: 100%;
+}

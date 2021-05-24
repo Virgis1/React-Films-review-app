@@ -1,0 +1,33 @@
+.app {
+  background-color: #39445a;
+  color: white;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.pages {
+  color: #316685;
+  text-align: center;
+  font-size: 3.5rem;
+  background-color: #1a1a1a;
+}
+
+.pageTitle {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 20px;
+}
